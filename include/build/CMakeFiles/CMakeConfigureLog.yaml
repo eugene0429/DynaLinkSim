@@ -1,0 +1,1807 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      The system is: Darwin - 23.4.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/3.29.0/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/3.29.0/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:36 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-nrXA6b"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-nrXA6b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-nrXA6b'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_880ee/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_880ee.dir/build.make CMakeFiles/cmTC_880ee.dir/build
+        Building C object CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/baeg-yujin/Desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-nrXA6b -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/baeg-yujin/Desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-nrXA6b -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.4.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_880ee
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_880ee.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -o cmTC_880ee
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_880ee -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:45:29 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-nrXA6b']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_880ee/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_880ee.dir/build.make CMakeFiles/cmTC_880ee.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-darwin23.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/baeg-yujin/Desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-nrXA6b -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/baeg-yujin/Desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-nrXA6b -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.4.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_880ee]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_880ee.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -o cmTC_880ee]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-darwin23.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_880ee -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.4] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_880ee] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_880ee.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 15:45:29 Feb  3 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:36 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6gNgds"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6gNgds"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6gNgds'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_76d2b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_76d2b.dir/build.make CMakeFiles/cmTC_76d2b.dir/build
+        Building CXX object CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/baeg-yujin/Desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6gNgds -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/baeg-yujin/Desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6gNgds -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.4.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_76d2b
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76d2b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_76d2b
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: arm64-apple-darwin23.4.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_76d2b -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:45:29 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:134 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6gNgds']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_76d2b/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_76d2b.dir/build.make CMakeFiles/cmTC_76d2b.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-darwin23.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/baeg-yujin/Desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6gNgds -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/baeg-yujin/Desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6gNgds -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.4.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_76d2b]
+        ignore line: [/opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76d2b.dir/link.txt --verbose=1]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_76d2b]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: arm64-apple-darwin23.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_76d2b -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.4] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_76d2b] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_76d2b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:36 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 15:45:29 Feb  3 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -v 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -v;-c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -fpp 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -v 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -v;-c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CMakeDetermineFortranCompiler.cmake:186 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:62 (include)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler: CMAKE_Fortran_COMPILER-NOTFOUND 
+      Build flags: 
+      Id flags: -fpp 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/FindStandardMathLibrary.cmake:35 (CHECK_CXX_SOURCE_COMPILES)"
+      - "CMakeLists.txt:291 (find_package)"
+    checks:
+      - "Performing Test standard_math_library_linked_to_automatically"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-CNYvOZ"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-CNYvOZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "standard_math_library_linked_to_automatically"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-CNYvOZ'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8afc/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d8afc.dir/build.make CMakeFiles/cmTC_d8afc.dir/build
+        Building CXX object CMakeFiles/cmTC_d8afc.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -Dstandard_math_library_linked_to_automatically  -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_d8afc.dir/src.cxx.o -MF CMakeFiles/cmTC_d8afc.dir/src.cxx.o.d -o CMakeFiles/cmTC_d8afc.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-CNYvOZ/src.cxx
+        Linking CXX executable cmTC_d8afc
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8afc.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d8afc.dir/src.cxx.o -o cmTC_d8afc
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:360 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_WERROR"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-b99O6g"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-b99O6g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_WERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-b99O6g'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1a97b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1a97b.dir/build.make CMakeFiles/cmTC_1a97b.dir/build
+        Building CXX object CMakeFiles/cmTC_1a97b.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_WERROR  -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Werror -MD -MT CMakeFiles/cmTC_1a97b.dir/src.cxx.o -MF CMakeFiles/cmTC_1a97b.dir/src.cxx.o.d -o CMakeFiles/cmTC_1a97b.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-b99O6g/src.cxx
+        Linking CXX executable cmTC_1a97b
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a97b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1a97b.dir/src.cxx.o -o cmTC_1a97b
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:364 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_pedantic"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-FUldTe"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-FUldTe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_pedantic"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-FUldTe'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_add0f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_add0f.dir/build.make CMakeFiles/cmTC_add0f.dir/build
+        Building CXX object CMakeFiles/cmTC_add0f.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_pedantic  -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -pedantic -MD -MT CMakeFiles/cmTC_add0f.dir/src.cxx.o -MF CMakeFiles/cmTC_add0f.dir/src.cxx.o.d -o CMakeFiles/cmTC_add0f.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-FUldTe/src.cxx
+        Linking CXX executable cmTC_add0f
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_add0f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_add0f.dir/src.cxx.o -o cmTC_add0f
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:365 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wall"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-t3lmnn"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-t3lmnn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wall"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-t3lmnn'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_430a8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_430a8.dir/build.make CMakeFiles/cmTC_430a8.dir/build
+        Building CXX object CMakeFiles/cmTC_430a8.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wall  -pedantic -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wall -MD -MT CMakeFiles/cmTC_430a8.dir/src.cxx.o -MF CMakeFiles/cmTC_430a8.dir/src.cxx.o.d -o CMakeFiles/cmTC_430a8.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-t3lmnn/src.cxx
+        Linking CXX executable cmTC_430a8
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_430a8.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_430a8.dir/src.cxx.o -o cmTC_430a8
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:366 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wextra"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-n5R1rq"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-n5R1rq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-n5R1rq'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a7300/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a7300.dir/build.make CMakeFiles/cmTC_a7300.dir/build
+        Building CXX object CMakeFiles/cmTC_a7300.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wextra  -pedantic -Wall -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wextra -MD -MT CMakeFiles/cmTC_a7300.dir/src.cxx.o -MF CMakeFiles/cmTC_a7300.dir/src.cxx.o.d -o CMakeFiles/cmTC_a7300.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-n5R1rq/src.cxx
+        Linking CXX executable cmTC_a7300
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7300.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a7300.dir/src.cxx.o -o cmTC_a7300
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wundef"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-c4Osd6"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-c4Osd6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wundef"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-c4Osd6'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8c821/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8c821.dir/build.make CMakeFiles/cmTC_8c821.dir/build
+        Building CXX object CMakeFiles/cmTC_8c821.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wundef  -pedantic -Wall -Wextra -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wundef -MD -MT CMakeFiles/cmTC_8c821.dir/src.cxx.o -MF CMakeFiles/cmTC_8c821.dir/src.cxx.o.d -o CMakeFiles/cmTC_8c821.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-c4Osd6/src.cxx
+        Linking CXX executable cmTC_8c821
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c821.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8c821.dir/src.cxx.o -o cmTC_8c821
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:369 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcastalign"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jgs5Dk"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jgs5Dk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcastalign"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jgs5Dk'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1b961/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1b961.dir/build.make CMakeFiles/cmTC_1b961.dir/build
+        Building CXX object CMakeFiles/cmTC_1b961.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wcastalign  -pedantic -Wall -Wextra -Wundef -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wcast-align -MD -MT CMakeFiles/cmTC_1b961.dir/src.cxx.o -MF CMakeFiles/cmTC_1b961.dir/src.cxx.o.d -o CMakeFiles/cmTC_1b961.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jgs5Dk/src.cxx
+        Linking CXX executable cmTC_1b961
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b961.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1b961.dir/src.cxx.o -o cmTC_1b961
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:370 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcharsubscripts"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jRY7av"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jRY7av"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcharsubscripts"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jRY7av'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_edb85/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_edb85.dir/build.make CMakeFiles/cmTC_edb85.dir/build
+        Building CXX object CMakeFiles/cmTC_edb85.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wcharsubscripts  -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wchar-subscripts -MD -MT CMakeFiles/cmTC_edb85.dir/src.cxx.o -MF CMakeFiles/cmTC_edb85.dir/src.cxx.o.d -o CMakeFiles/cmTC_edb85.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jRY7av/src.cxx
+        Linking CXX executable cmTC_edb85
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edb85.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_edb85.dir/src.cxx.o -o cmTC_edb85
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:371 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnonvirtualdtor"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-rv99Tn"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-rv99Tn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnonvirtualdtor"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-rv99Tn'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c032a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c032a.dir/build.make CMakeFiles/cmTC_c032a.dir/build
+        Building CXX object CMakeFiles/cmTC_c032a.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wnonvirtualdtor  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wnon-virtual-dtor -MD -MT CMakeFiles/cmTC_c032a.dir/src.cxx.o -MF CMakeFiles/cmTC_c032a.dir/src.cxx.o.d -o CMakeFiles/cmTC_c032a.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-rv99Tn/src.cxx
+        Linking CXX executable cmTC_c032a
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c032a.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c032a.dir/src.cxx.o -o cmTC_c032a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:372 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wunusedlocaltypedefs"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-UMxeLd"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-UMxeLd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wunusedlocaltypedefs"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-UMxeLd'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fa904/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fa904.dir/build.make CMakeFiles/cmTC_fa904.dir/build
+        Building CXX object CMakeFiles/cmTC_fa904.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wunusedlocaltypedefs  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wunused-local-typedefs -MD -MT CMakeFiles/cmTC_fa904.dir/src.cxx.o -MF CMakeFiles/cmTC_fa904.dir/src.cxx.o.d -o CMakeFiles/cmTC_fa904.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-UMxeLd/src.cxx
+        Linking CXX executable cmTC_fa904
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa904.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fa904.dir/src.cxx.o -o cmTC_fa904
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:373 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wpointerarith"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6owlwz"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6owlwz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wpointerarith"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6owlwz'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3d807/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3d807.dir/build.make CMakeFiles/cmTC_3d807.dir/build
+        Building CXX object CMakeFiles/cmTC_3d807.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wpointerarith  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wpointer-arith -MD -MT CMakeFiles/cmTC_3d807.dir/src.cxx.o -MF CMakeFiles/cmTC_3d807.dir/src.cxx.o.d -o CMakeFiles/cmTC_3d807.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-6owlwz/src.cxx
+        Linking CXX executable cmTC_3d807
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d807.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3d807.dir/src.cxx.o -o cmTC_3d807
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:374 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wwritestrings"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-91WmBs"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-91WmBs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wwritestrings"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-91WmBs'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_56e4c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_56e4c.dir/build.make CMakeFiles/cmTC_56e4c.dir/build
+        Building CXX object CMakeFiles/cmTC_56e4c.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wwritestrings  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wwrite-strings -MD -MT CMakeFiles/cmTC_56e4c.dir/src.cxx.o -MF CMakeFiles/cmTC_56e4c.dir/src.cxx.o.d -o CMakeFiles/cmTC_56e4c.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-91WmBs/src.cxx
+        Linking CXX executable cmTC_56e4c
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56e4c.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_56e4c.dir/src.cxx.o -o cmTC_56e4c
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:375 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wformatsecurity"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-bEDODF"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-bEDODF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wformatsecurity"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-bEDODF'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_94fea/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_94fea.dir/build.make CMakeFiles/cmTC_94fea.dir/build
+        Building CXX object CMakeFiles/cmTC_94fea.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wformatsecurity  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wformat-security -MD -MT CMakeFiles/cmTC_94fea.dir/src.cxx.o -MF CMakeFiles/cmTC_94fea.dir/src.cxx.o.d -o CMakeFiles/cmTC_94fea.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-bEDODF/src.cxx
+        Linking CXX executable cmTC_94fea
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94fea.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_94fea.dir/src.cxx.o -o cmTC_94fea
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:376 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wshorten64to32"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-3cPL3R"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-3cPL3R"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wshorten64to32"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-3cPL3R'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f06b0/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f06b0.dir/build.make CMakeFiles/cmTC_f06b0.dir/build
+        Building CXX object CMakeFiles/cmTC_f06b0.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_f06b0.dir/src.cxx.o -MF CMakeFiles/cmTC_f06b0.dir/src.cxx.o.d -o CMakeFiles/cmTC_f06b0.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-3cPL3R/src.cxx
+        Linking CXX executable cmTC_f06b0
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f06b0.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f06b0.dir/src.cxx.o -o cmTC_f06b0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:377 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wlogicalop"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-qMF7ED"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-qMF7ED"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wlogicalop"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-qMF7ED'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8159c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8159c.dir/build.make CMakeFiles/cmTC_8159c.dir/build
+        Building CXX object CMakeFiles/cmTC_8159c.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wlogicalop  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wlogical-op -MD -MT CMakeFiles/cmTC_8159c.dir/src.cxx.o -MF CMakeFiles/cmTC_8159c.dir/src.cxx.o.d -o CMakeFiles/cmTC_8159c.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-qMF7ED/src.cxx
+        error: unknown warning option '-Wlogical-op'; did you mean '-Wlong-long'? [-Werror,-Wunknown-warning-option]
+        make[1]: *** [CMakeFiles/cmTC_8159c.dir/src.cxx.o] Error 1
+        make: *** [cmTC_8159c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:378 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wenumconversion"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-IP5MfU"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-IP5MfU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wenumconversion"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-IP5MfU'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_49a22/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_49a22.dir/build.make CMakeFiles/cmTC_49a22.dir/build
+        Building CXX object CMakeFiles/cmTC_49a22.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wenumconversion  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wenum-conversion -MD -MT CMakeFiles/cmTC_49a22.dir/src.cxx.o -MF CMakeFiles/cmTC_49a22.dir/src.cxx.o.d -o CMakeFiles/cmTC_49a22.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-IP5MfU/src.cxx
+        Linking CXX executable cmTC_49a22
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49a22.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_49a22.dir/src.cxx.o -o cmTC_49a22
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:379 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wcpp11extensions"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-w39c0g"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-w39c0g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wcpp11extensions"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-w39c0g'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_967ee/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_967ee.dir/build.make CMakeFiles/cmTC_967ee.dir/build
+        Building CXX object CMakeFiles/cmTC_967ee.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wc++11-extensions -MD -MT CMakeFiles/cmTC_967ee.dir/src.cxx.o -MF CMakeFiles/cmTC_967ee.dir/src.cxx.o.d -o CMakeFiles/cmTC_967ee.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-w39c0g/src.cxx
+        Linking CXX executable cmTC_967ee
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_967ee.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_967ee.dir/src.cxx.o -o cmTC_967ee
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:380 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wdoublepromotion"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-IJgdDU"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-IJgdDU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wdoublepromotion"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-IJgdDU'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_76886/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_76886.dir/build.make CMakeFiles/cmTC_76886.dir/build
+        Building CXX object CMakeFiles/cmTC_76886.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wdoublepromotion  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wdouble-promotion -MD -MT CMakeFiles/cmTC_76886.dir/src.cxx.o -MF CMakeFiles/cmTC_76886.dir/src.cxx.o.d -o CMakeFiles/cmTC_76886.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-IJgdDU/src.cxx
+        Linking CXX executable cmTC_76886
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76886.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_76886.dir/src.cxx.o -o cmTC_76886
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:382 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wshadow"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-vXdaPK"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-vXdaPK"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wshadow"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-vXdaPK'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aed91/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aed91.dir/build.make CMakeFiles/cmTC_aed91.dir/build
+        Building CXX object CMakeFiles/cmTC_aed91.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wshadow  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wshadow -MD -MT CMakeFiles/cmTC_aed91.dir/src.cxx.o -MF CMakeFiles/cmTC_aed91.dir/src.cxx.o.d -o CMakeFiles/cmTC_aed91.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-vXdaPK/src.cxx
+        Linking CXX executable cmTC_aed91
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aed91.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_aed91.dir/src.cxx.o -o cmTC_aed91
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:383 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnopsabi"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jjjsVC"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jjjsVC"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnopsabi"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jjjsVC'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_52ef3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_52ef3.dir/build.make CMakeFiles/cmTC_52ef3.dir/build
+        Building CXX object CMakeFiles/cmTC_52ef3.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wnopsabi  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-psabi -MD -MT CMakeFiles/cmTC_52ef3.dir/src.cxx.o -MF CMakeFiles/cmTC_52ef3.dir/src.cxx.o.d -o CMakeFiles/cmTC_52ef3.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-jjjsVC/src.cxx
+        Linking CXX executable cmTC_52ef3
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52ef3.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_52ef3.dir/src.cxx.o -o cmTC_52ef3
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:384 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnovariadicmacros"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-fx5WvT"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-fx5WvT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnovariadicmacros"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-fx5WvT'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48bf9/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_48bf9.dir/build.make CMakeFiles/cmTC_48bf9.dir/build
+        Building CXX object CMakeFiles/cmTC_48bf9.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wnovariadicmacros  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-variadic-macros -MD -MT CMakeFiles/cmTC_48bf9.dir/src.cxx.o -MF CMakeFiles/cmTC_48bf9.dir/src.cxx.o.d -o CMakeFiles/cmTC_48bf9.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-fx5WvT/src.cxx
+        Linking CXX executable cmTC_48bf9
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48bf9.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_48bf9.dir/src.cxx.o -o cmTC_48bf9
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:385 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_Wnolonglong"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-mnLJBz"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-mnLJBz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_Wnolonglong"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-mnLJBz'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2c549/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2c549.dir/build.make CMakeFiles/cmTC_2c549.dir/build
+        Building CXX object CMakeFiles/cmTC_2c549.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_Wnolonglong  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-long-long -MD -MT CMakeFiles/cmTC_2c549.dir/src.cxx.o -MF CMakeFiles/cmTC_2c549.dir/src.cxx.o.d -o CMakeFiles/cmTC_2c549.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-mnLJBz/src.cxx
+        Linking CXX executable cmTC_2c549
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c549.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2c549.dir/src.cxx.o -o cmTC_2c549
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:386 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fnochecknew"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-AcAaAZ"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-AcAaAZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fnochecknew"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-AcAaAZ'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d5271/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d5271.dir/build.make CMakeFiles/cmTC_d5271.dir/build
+        Building CXX object CMakeFiles/cmTC_d5271.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_fnochecknew  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -fno-check-new -MD -MT CMakeFiles/cmTC_d5271.dir/src.cxx.o -MF CMakeFiles/cmTC_d5271.dir/src.cxx.o.d -o CMakeFiles/cmTC_d5271.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-AcAaAZ/src.cxx
+        Linking CXX executable cmTC_d5271
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5271.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d5271.dir/src.cxx.o -o cmTC_d5271
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:387 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fnocommon"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-qeDrz2"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-qeDrz2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fnocommon"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-qeDrz2'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8d0ac/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8d0ac.dir/build.make CMakeFiles/cmTC_8d0ac.dir/build
+        Building CXX object CMakeFiles/cmTC_8d0ac.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_fnocommon  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -fno-common -MD -MT CMakeFiles/cmTC_8d0ac.dir/src.cxx.o -MF CMakeFiles/cmTC_8d0ac.dir/src.cxx.o.d -o CMakeFiles/cmTC_8d0ac.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-qeDrz2/src.cxx
+        Linking CXX executable cmTC_8d0ac
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d0ac.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8d0ac.dir/src.cxx.o -o cmTC_8d0ac
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:388 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_fstrictaliasing"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-TUG4xp"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-TUG4xp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_fstrictaliasing"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-TUG4xp'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_15aa1/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_15aa1.dir/build.make CMakeFiles/cmTC_15aa1.dir/build
+        Building CXX object CMakeFiles/cmTC_15aa1.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_fstrictaliasing  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_15aa1.dir/src.cxx.o -MF CMakeFiles/cmTC_15aa1.dir/src.cxx.o.d -o CMakeFiles/cmTC_15aa1.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-TUG4xp/src.cxx
+        Linking CXX executable cmTC_15aa1
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15aa1.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -Werror -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_15aa1.dir/src.cxx.o -o cmTC_15aa1
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:389 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_wd981"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-k895zG"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-k895zG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_wd981"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-k895zG'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7274c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7274c.dir/build.make CMakeFiles/cmTC_7274c.dir/build
+        Building CXX object CMakeFiles/cmTC_7274c.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -wd981 -MD -MT CMakeFiles/cmTC_7274c.dir/src.cxx.o -MF CMakeFiles/cmTC_7274c.dir/src.cxx.o.d -o CMakeFiles/cmTC_7274c.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-k895zG/src.cxx
+        clang: error: unknown argument: '-wd981'
+        make[1]: *** [CMakeFiles/cmTC_7274c.dir/src.cxx.o] Error 1
+        make: *** [cmTC_7274c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:339 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:390 (ei_add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_wd2304"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-pxsTUT"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-pxsTUT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_wd2304"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-pxsTUT'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d32af/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d32af.dir/build.make CMakeFiles/cmTC_d32af.dir/build
+        Building CXX object CMakeFiles/cmTC_d32af.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -wd2304 -MD -MT CMakeFiles/cmTC_d32af.dir/src.cxx.o -MF CMakeFiles/cmTC_d32af.dir/src.cxx.o.d -o CMakeFiles/cmTC_d32af.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-pxsTUT/src.cxx
+        clang: error: unknown argument: '-wd2304'
+        make[1]: *** [CMakeFiles/cmTC_d32af.dir/src.cxx.o] Error 1
+        make: *** [cmTC_d32af/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:518 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_OPENMP"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-AsUCWZ"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-AsUCWZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_OPENMP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-AsUCWZ'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37ca4/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_37ca4.dir/build.make CMakeFiles/cmTC_37ca4.dir/build
+        Building CXX object CMakeFiles/cmTC_37ca4.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_OPENMP  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing  -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -fopenmp -MD -MT CMakeFiles/cmTC_37ca4.dir/src.cxx.o -MF CMakeFiles/cmTC_37ca4.dir/src.cxx.o.d -o CMakeFiles/cmTC_37ca4.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-AsUCWZ/src.cxx
+        clang: error: unsupported option '-fopenmp'
+        make[1]: *** [CMakeFiles/cmTC_37ca4.dir/src.cxx.o] Error 1
+        make: *** [cmTC_37ca4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindBLAS.cmake:416 (check_blas_libraries)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "test/CMakeLists.txt:16 (find_package)"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-d9XrAC"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-d9XrAC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-d9XrAC'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1487c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1487c.dir/build.make CMakeFiles/cmTC_1487c.dir/build
+        Building C object CMakeFiles/cmTC_1487c.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_1487c.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_1487c.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_1487c.dir/CheckFunctionExists.c.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-d9XrAC/CheckFunctionExists.c
+        Linking C executable cmTC_1487c
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1487c.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1487c.dir/CheckFunctionExists.c.o -o cmTC_1487c
+        Undefined symbols for architecture arm64:
+          "_sgemm_", referenced from:
+              _main in CheckFunctionExists.c.o
+        ld: symbol(s) not found for architecture arm64
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_1487c] Error 1
+        make: *** [cmTC_1487c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindBLAS.cmake:468 (find_package)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "test/CMakeLists.txt:16 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-M1gUJF"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-M1gUJF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-M1gUJF'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_465e5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_465e5.dir/build.make CMakeFiles/cmTC_465e5.dir/build
+        Building C object CMakeFiles/cmTC_465e5.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_465e5.dir/src.c.o -MF CMakeFiles/cmTC_465e5.dir/src.c.o.d -o CMakeFiles/cmTC_465e5.dir/src.c.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-M1gUJF/src.c
+        Linking C executable cmTC_465e5
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_465e5.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_465e5.dir/src.c.o -o cmTC_465e5
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindBLAS.cmake:372 (check_function_exists)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindBLAS.cmake:1211 (check_blas_libraries)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindLAPACK.cmake:247 (find_package)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindLAPACK.cmake:283 (_lapack_find_dependency)"
+      - "test/CMakeLists.txt:16 (find_package)"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-krIZde"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-krIZde"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "BLAS_Accelerate_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-krIZde'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7eb4c/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7eb4c.dir/build.make CMakeFiles/cmTC_7eb4c.dir/build
+        Building C object CMakeFiles/cmTC_7eb4c.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=dgemm_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_7eb4c.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_7eb4c.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_7eb4c.dir/CheckFunctionExists.c.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-krIZde/CheckFunctionExists.c
+        Linking C executable cmTC_7eb4c
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7eb4c.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dgemm_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7eb4c.dir/CheckFunctionExists.c.o -o cmTC_7eb4c  -framework Accelerate
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindLAPACK.cmake:220 (check_function_exists)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/FindLAPACK.cmake:397 (check_lapack_libraries)"
+      - "test/CMakeLists.txt:16 (find_package)"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-0rDDXQ"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-0rDDXQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "LAPACK_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-0rDDXQ'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1ebd8/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1ebd8.dir/build.make CMakeFiles/cmTC_1ebd8.dir/build
+        Building C object CMakeFiles/cmTC_1ebd8.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc  -F/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks -DCHECK_FUNCTION_EXISTS=cheev_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_1ebd8.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_1ebd8.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_1ebd8.dir/CheckFunctionExists.c.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-0rDDXQ/CheckFunctionExists.c
+        Linking C executable cmTC_1ebd8
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ebd8.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1ebd8.dir/CheckFunctionExists.c.o -o cmTC_1ebd8  -framework Accelerate -lm -ldl
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/opt/homebrew/Cellar/cmake/3.29.0/share/cmake/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "test/CMakeLists.txt:324 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test COMPILER_SUPPORT_FASTMATH"
+    directories:
+      source: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-1SsTcl"
+      binary: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-1SsTcl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+    buildResult:
+      variable: "COMPILER_SUPPORT_FASTMATH"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-1SsTcl'
+        
+        Run Build Command(s): /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aa17e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aa17e.dir/build.make CMakeFiles/cmTC_aa17e.dir/build
+        Building CXX object CMakeFiles/cmTC_aa17e.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DCOMPILER_SUPPORT_FASTMATH  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing  -std=c++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -ffast-math -MD -MT CMakeFiles/cmTC_aa17e.dir/src.cxx.o -MF CMakeFiles/cmTC_aa17e.dir/src.cxx.o.d -o CMakeFiles/cmTC_aa17e.dir/src.cxx.o -c /Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/build/CMakeFiles/CMakeScratch/TryCompile-1SsTcl/src.cxx
+        Linking CXX executable cmTC_aa17e
+        /opt/homebrew/Cellar/cmake/3.29.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa17e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wshorten-64-to-32 -Wenum-conversion -Wc++11-extensions -Wdouble-promotion -Wshadow -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_aa17e.dir/src.cxx.o -o cmTC_aa17e
+        
+      exitCode: 0
+...

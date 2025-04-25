@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/test/diagonal_matrix_variadic_ctor.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "diagonal_matrix_variadic_ctor_2"
+	}
+}

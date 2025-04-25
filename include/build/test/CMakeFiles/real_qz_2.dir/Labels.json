@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/baeg-yujin/desktop/ME454_2024-main/four_bar_linkage_cpp/include/eigen/test/real_qz.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "real_qz_2"
+	}
+}
