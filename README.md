@@ -1,3 +1,20 @@
-Only gravity ( y<sub>acceleration</sub> = -9.81 m/s<sup>2</sup> ) will be applied to the system.  
-Point P in each link's local coordinate becomes joint's initial position.  
-Point Q in each link's local coordinate is on translational axis (prismatic joint).  
+# DynaLinkSim
+
+**DynaLinkSim** is a C++ simulation framework for multi-link, multi-joint mechanical systems. It supports revolute and prismatic joints, and computes the dynamic behavior of articulated mechanisms using numerical integration and constraint solvers.
+
+## Features
+
+- Configurable linkage systems with arbitrary topology  
+- Supports revolute and prismatic joints  
+- Numerical integration over time  
+- Exports simulation results to CSV (position, velocity, constraint errors)
+
+## Build Instructions
+
+This project uses **CMake** for build configuration:
+
+```bash
+mkdir build
+cd build
+cmake ..
+make
