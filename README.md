@@ -19,7 +19,6 @@ cd build
 cmake ..
 make
 ```
-# DSP Simulation Project
 
 ## After Building
 After building, the executable `dspSimMain` will be created.
